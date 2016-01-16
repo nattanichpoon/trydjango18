@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+
+{% block head_title %} Welcome | {{ block.super }}{% endblock %}
+
+
+
+<!-- 
+<!-- Main component for a primary marketing message or call to action -->
+{% block jumbotron %}
+ <div class="jumbotron">
+      <div class="row">
+		<div class="col-sm-6">
+	      <h1>TOGETHER</h1>
+	      <p>is how it should be done.</p>
+	        <a class="btn btn-lg" href="" role="button">Join Us &raquo;</a>
+	      </p>
+	       </div>
+	      <div class='col-sm-6' style="background-color:black;height:300px">
+	      </div>
+	</div>
+</div>
+{% endblock %}
+
+
+{% block content %} --//block content//--
+
+<div clas="row">
+
+	<div class="col-sm-3 pull-right">
+		<h1>{{title}}</h1> <!--title is in views.py-->
+
+		<form method='POST' action=''>{% csrf_token %} <!--method=post/get action=where-->
+		{{ form|crispy }}
+		<input class = 'btn btn-primary' type='submit' value='Sign Up'/>
+
+		<!-- <input type='text'>
+
+		</input> -->
+		</form>
+	</div>
+	<div class="col-sm-3">
+		<p class='lead'>Feature 1</p>
+	</div>
+	<div class="col-sm-3">
+		<p class='lead'>Feature 2</p>
+	</div>
+	<div class="col-sm-3">
+		<p class='lead'>Feature 3</p>
+	</div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,187 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"STAT",
+				"STATIC_URL"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/together/frontpage/main.css",
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/together/frontpage/index.html",
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/together/frontpage/navbar-fixed-top.css",
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/examples/together/frontpage/main.css",
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/examples/together/frontpage/index.html",
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/examples/navbar-fixed-top/navbar-fixed-top.css",
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/examples/together/main",
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/examples/navbar-fixed-top/index.html",
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/examples/together/frontpage",
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/examples/theme/theme.css",
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/examples/theme/index.html",
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/examples/signin/index.html",
+		"/Users/apple/Desktop/bootstrap-3.3.6/docs/examples/signin/signin.css",
+		"/Users/apple/Downloads/bootstrap-3.3.6/docs/examples/starter-template/index.html",
+		"/Users/apple/djangogirls/mysite/settings.py",
+		"/Users/untitled",
+		"/Users/apple/Desktop/Chicken_cartoon_04.svg",
+		"/Applications/MAMP/htdocs/RatteHotel/connect.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mysql_test/index.php",
+		"/Volumes/POONSV/AppProFinal/Codes/Web/Web Examples/stamppad/stamppad.js",
+		"/Volumes/POONSV/AppProFinal/Codes/Web/Web Examples/selector5.html",
+		"/Volumes/POONSV/AppProFinal/Codes/Web/Web Examples/eventsample4.html",
+		"/Volumes/POONSV/AppProFinal/Codes/Web/Web Examples/eventsample3.html",
+		"/Volumes/POONSV/AppProFinal/Codes/Web/Web Examples/eventsample1.html",
+		"/Volumes/POONSV/AppProFinal/Codes/Web/Web Examples/eventsample2.html",
+		"/Volumes/POONSV/AppProFinal/Codes/Web/Web Examples/dommani1.html",
+		"/Volumes/POONSV/AppProFinal/Codes/Web/Size him(hode)/size him.js",
+		"/Volumes/POONSV/AppProFinal/Codes/Web/Size him(hode)/size him.html",
+		"/Users/apple/Downloads/Appro/Web/Size him/size him.html",
+		"/Users/apple/Downloads/Appro/Web/Dynamic Web Development/Javascript/variable/index.html",
+		"/Users/apple/Downloads/Appro/Web/Dynamic Web Development/Javascript/function/index.html",
+		"/Users/apple/Downloads/Appro/Web/Dynamic Web Development/Javascript/dom/index.html",
+		"/Users/apple/Downloads/Appro/Web/Dynamic Web Development/Javascript/dom/index2.html",
+		"/Users/apple/Desktop/try/sizehim.js",
+		"/Users/apple/Desktop/try/sizehim.css",
+		"/Users/apple/Desktop/sizehim/sizehim.html",
+		"/Users/apple/Downloads/WindowsFormsApplicationSimple.1291.1399039637/Form1.Designer.cs",
+		"/Users/apple/Desktop/WindowsForm EX1/Form1.cs",
+		"/Users/apple/Downloads/HW6-2/Post-It-Note.jar",
+		"/Users/apple/Documents/workspace/week5/DoubleData3.dat",
+		"/Users/apple/Documents/workspace/week5/DoubleData2.dat",
+		"/Users/apple/Documents/workspace/week5/DoubleData.dat",
+		"/Users/apple/Documents/workspace/HW5/aa.jpg.is1",
+		"/Users/apple/Documents/workspace/HW5/aa.jpg.is4",
+		"/Users/apple/Documents/workspace/HW5/aa.jpg.is3",
+		"/Users/apple/Documents/workspace/HW5/aa.jpg.is2"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pic"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
