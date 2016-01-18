@@ -11,55 +11,59 @@
 <!-- Main component for a primary marketing message or call to action -->
 {% block jumbotron %}
  <div class="jumbotron">
-      <div class="row" style="text-align:center; margin:auto;">    		
-      			<h2 style="display:inline;">Working "</h2><span class="brand"><h1 style="display:inline;">Together </h1></span>
-      	      	<h2 style="display:inline;"> "as a Team</h2>
-      	     
-      </div>
-      	   <div class="row">  
-				<div class="image" style="margin-top:50px">
-					
-			      	<p style="text-align:center;"><img src="{% static 'img/meeting.png' %}" alt="" style=" width:80%; height:80%;"></p>
-			    </div>
-	        <!-- <a class="btn btn-lg" href="" role="button">Join Us</a> -->
-	   </div>
-	     <!-- <div class='col-sm-6' style="height:300px">
-	     	
-	      	
-	      </div> -->
-	</div>
+ 	<div class="row" style="text-align:center; padding-bottom:50px;">
+ 		<h2 style="display:inline;">Working "</h2><span class="brand"><h1 class="brand" style="display:inline;">Together </h1></span><h2 style="display:inline;"> "as a team.</h2>   
+ 	</div>
+      <div class="row">   
+	      <div class="col-sm-8" style="text-align:center; margin:auto;"> 	
+		      <div class="row">  			
+					<div class="image">
+						<!-- <a class="btn btn-lg" href="" role="button">Join Us</a>  -->
+						<img src="{% static 'img/meeting.png' %}" alt="" style=" width:80%; height:80%;">
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4" style="text-align:right;"> 	
+			
+					<h3>Join Us.</h3>
+					<div style="background-color:#F7F5F5; border-radius:10px; padding:15px;">
+				    <form method='POST' action=''>{% csrf_token %} <!--method=post/get action=where-->
+				      	{{ form|crispy }}
+				      	<input class = 'btn' type='submit' value='Sign Up'/>
+				    </form>
+				</div>
+			
+			</div>
+	  </div>
+
 </div>
 {% endblock %}
 
 
-{% block content %} --//block content//--
+
+{% block content %} 
+<hr style="height:15px;">
 
 <div class="row">
+	<div class="col-sm-8" style="text-align:right;">
+		<p class='lead'>Distribute Tasks</p>
+		<p>Evenly distribute tasks between members.</p>
+	</div>
 
 	<div class="col-sm-4">
-		<p class='lead'>Feature 1</p>
+		<img src="{% static 'img/Google_Tasks.png' %}" alt="" style="width:70%; height:70%;" class="img-rounded">
 	</div>
+</div>
+<div class="row">
+	<hr>
 	<div class="col-sm-4">
+		<img src="{% static 'img/Google_Calendar.png' %}" alt="" style="width:80%; height:80%;" class="img-rounded">
+	</div>
+	<div class="col-sm-8">
 		<p class='lead'>Feature 2</p>
-	</div>
-	<div class="col-sm-4">
-		<h3>Let's get together.</h3>
-	      	<form method='POST' action=''>{% csrf_token %} <!--method=post/get action=where-->
-	      	{{ form|crispy }}
-	      	<input class = 'btn' type='submit' value='Sign Up'/>
-
-	      	<!-- <input type='text'>
-
-	      	</input> -->
-	      	</form>
 	</div>
 
 </div>
-<div class="row">
-	<div class="col-sm-4">
-		<p class='lead'>Feature 2</p>
-		<img src="{% static 'img/meeting.png' %}"/>
-	</div>
-</div>
+
 
 {% endblock %}
