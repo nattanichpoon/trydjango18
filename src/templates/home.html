@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load crispy_forms_tags %}
+{% load staticfiles %}
 
 
 {% block head_title %} Welcome | {{ block.super }}{% endblock %}
@@ -10,15 +11,22 @@
 <!-- Main component for a primary marketing message or call to action -->
 {% block jumbotron %}
  <div class="jumbotron">
-      <div class="row">
-		<div class="col-sm-6">
-	      <h1>TOGETHER</h1>
-	      <p>is how it should be done.</p>
-	        <a class="btn btn-lg" href="" role="button">Join Us &raquo;</a>
-	      </p>
-	       </div>
-	      <div class='col-sm-6' style="background-color:black;height:300px">
-	      </div>
+      <div class="row" style="text-align:center; margin:auto;">    		
+      			<h2 style="display:inline;">Working "</h2><span class="brand"><h1 style="display:inline;">Together </h1></span>
+      	      	<h2 style="display:inline;"> "as a Team</h2>
+      	     
+      </div>
+      	   <div class="row">  
+				<div class="image" style="margin-top:50px">
+					
+			      	<p style="text-align:center;"><img src="{% static 'img/meeting.png' %}" alt="" style=" width:80%; height:80%;"></p>
+			    </div>
+	        <!-- <a class="btn btn-lg" href="" role="button">Join Us</a> -->
+	   </div>
+	     <!-- <div class='col-sm-6' style="height:300px">
+	     	
+	      	
+	      </div> -->
 	</div>
 </div>
 {% endblock %}
@@ -26,30 +34,32 @@
 
 {% block content %} --//block content//--
 
-<div clas="row">
+<div class="row">
 
-	<div class="col-sm-3 pull-right">
-		<h1>{{title}}</h1> <!--title is in views.py-->
-
-		<form method='POST' action=''>{% csrf_token %} <!--method=post/get action=where-->
-		{{ form|crispy }}
-		<input class = 'btn btn-primary' type='submit' value='Sign Up'/>
-
-		<!-- <input type='text'>
-
-		</input> -->
-		</form>
-	</div>
-	<div class="col-sm-3">
+	<div class="col-sm-4">
 		<p class='lead'>Feature 1</p>
 	</div>
-	<div class="col-sm-3">
+	<div class="col-sm-4">
 		<p class='lead'>Feature 2</p>
 	</div>
-	<div class="col-sm-3">
-		<p class='lead'>Feature 3</p>
+	<div class="col-sm-4">
+		<h3>Let's get together.</h3>
+	      	<form method='POST' action=''>{% csrf_token %} <!--method=post/get action=where-->
+	      	{{ form|crispy }}
+	      	<input class = 'btn' type='submit' value='Sign Up'/>
+
+	      	<!-- <input type='text'>
+
+	      	</input> -->
+	      	</form>
 	</div>
 
+</div>
+<div class="row">
+	<div class="col-sm-4">
+		<p class='lead'>Feature 2</p>
+		<img src="{% static 'img/meeting.png' %}"/>
+	</div>
 </div>
 
 {% endblock %}

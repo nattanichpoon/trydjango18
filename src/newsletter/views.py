@@ -2,8 +2,9 @@ from django.conf import settings
 from django.core.mail import send_mail
 from django.shortcuts import render
 
-from .forms import ContactForm, SignUpForm
 from .models import SignUp
+from .forms import ContactForm, SignUpForm
+
 # Create your views here.
 def home(request):
 	title = 'Sign Up Now'
